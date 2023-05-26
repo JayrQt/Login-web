@@ -1,0 +1,183 @@
+*
+{
+    box-sizing: border-box;
+}
+
+/* body design */
+
+body
+{
+    width: 100%;
+    margin: 0;
+    background:url(Backround.jpg)no-repeat;
+    background-size: cover;
+}
+
+/* Navigation Design */
+
+nav a:hover{
+    text-decoration: underline;
+}
+ 
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/* Achor Design */
+
+a
+{ 
+ padding: 40px 35px;
+ color: white;
+ text-decoration: none;
+ margin-top: 1%;
+ font-size: 25px;
+ font-family: 'Courier New', Courier, monospace
+}
+
+/* Achor hover design */
+
+a:hover
+{
+    transition: 0.5s;
+    background-color: rgba(119, 177, 224, 0.932);
+    border-radius: 10px;
+}
+
+/* Div Design */
+
+.input-box h1
+{
+  font-size: 2em;
+  color: white;
+  text-align: center;
+
+}
+
+.Mdiv .input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+
+.Mdiv .close-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(104, 135, 182);
+    font-size: 45px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.Mdiv .close-icon :hover{
+    transition: 0.5s;
+}
+
+.Mdiv .input-box    
+{
+    border-bottom: 2px solid black;
+    position: relative;
+    width: 85%;
+    height: 40px;
+    margin: 30px;
+}
+
+.Mdiv
+{
+    position: relative;
+    height: 500px;
+    width: 550px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 40%;
+    overflow: hidden;
+}
+
+ .Form-Registration{
+    position: absolute;
+    transform: translatex(400px);
+}
+
+.Mdiv .formbox{
+    display: none;
+}
+
+.input-box Label{
+    position: absolute;
+    transform: translate(-50%);
+    font-size: 45;
+    font-weight: 500;
+    pointer-events: none;
+    align-items: baseline;
+}
+
+.popupbutton
+{
+   width: 200px;
+   background: transparent;
+   border: 1px solid white;
+   color: rgba(255, 255, 255, 0.74);
+   cursor: pointer;
+   outline: none;
+   border-radius: 6px;
+   margin-left: 20px;
+   font-size: 35px;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: 500;
+   margin-top: 1%;
+   margin-right: 1%;
+}
+
+.popupbutton:hover
+{
+    transition: 0.5s;
+    background-color: white;
+}
+
+/* Span Design */
+
+.input-box .icon
+{
+    position: absolute;
+    right: 8px;
+}
+
+.Forger-remember label input{
+    accent-color: rgb(16, 37, 68);
+    margin: 3px;
+    margin-bottom: 10%;
+    margin-right: 15%;
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    background-color:  rgb(16, 37, 68);
+    border-radius: 6px;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+
